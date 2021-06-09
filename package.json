@@ -35,8 +35,10 @@
   },
   "build": {
     "appId": "com.startergame",
+    "files": [
+      "dist/**/*"
+    ],
     "directories": {
-      "buildResources": "dist",
       "output": "build"
     }
   }
