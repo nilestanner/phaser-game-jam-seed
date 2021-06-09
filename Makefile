@@ -1,3 +1,6 @@
+clean:
+	rm -rf dist
+
 setup:
 	npm ci
 
@@ -6,3 +9,9 @@ build:
 
 watch:
 	npm run dev
+
+electron:
+	npm start
+
+build-electron:
+	cd dist && ../node_modules/.bin/electron-builder

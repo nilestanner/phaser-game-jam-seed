@@ -43,6 +43,9 @@ module.exports = {
         {
           from: 'index.html',
         },
+        {
+          from: 'main.js',
+        },
         // {
         //   from: 'assets/**/*',
         // },
