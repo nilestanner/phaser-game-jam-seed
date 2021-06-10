@@ -39,7 +39,7 @@
       "dist/**/*"
     ],
     "directories": {
-      "output": "build"
+      "output": "installer"
     }
   }
 }

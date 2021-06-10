@@ -1,5 +1,6 @@
 clean:
 	rm -rf dist
+	rm -rf installer
 
 setup:
 	npm ci
@@ -14,4 +15,4 @@ electron:
 	npm start
 
 build-electron:
-	cd dist && ../node_modules/.bin/electron-builder
+	npm run package
