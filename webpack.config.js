@@ -46,6 +46,9 @@ module.exports = {
         {
           from: 'main.js',
         },
+        {
+          from: 'package.json',
+        }
         // {
         //   from: 'assets/**/*',
         // },

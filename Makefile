@@ -1,3 +1,5 @@
+NODE_BIN="node_modules/.bin"
+
 clean:
 	rm -rf dist
 
@@ -15,3 +17,6 @@ electron:
 
 build-electron:
 	cd dist && ../node_modules/.bin/electron-builder
+
+build-nw:
+	tar.exe -x -f out.zip dist
